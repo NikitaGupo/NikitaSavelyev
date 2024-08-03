@@ -1,0 +1,212 @@
+body{background-color: white;
+   }
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.topnav{
+    /* Прямоугольник 1 */
+width: 100%;
+height: 46px;
+left: 0;
+right: 0;
+top: 0;
+background: rgb(6, 136, 59);
+font-size: 30px;
+position: fixed;}
+
+.topnav a {
+text-decoration: none;
+color: black;
+font-family: outfit;
+padding: 20px;
+transition: 0.5s;}
+
+.topnav a:hover {
+    color: rgb(1, 123, 46);
+  }
+  
+  .topnav a.active {
+    color: rgb(0, 0, 0);
+    size: 30px;
+  }
+  .topnav a.active:hover {
+    color: rgb(1, 123, 46);
+    size: 30px;
+  }
+
+
+  .topnav-right{
+    float: right;
+  }
+.icon  {
+    display: none;
+}
+
+.slide  {
+    display: none;
+}
+
+.dropbtn{
+    display: none;
+}
+
+@media screen and (max-width: 885px){
+   .topnav {
+        font-size:90%;
+        height: 20px;}}
+
+        @media screen and (max-width: 570px){
+            .topnav a {display: none;}
+            .topnav  {
+                width: 100%;
+                height: 80px;}
+
+                 .topnav a.icon{
+                    width: 100%;
+                    font-size: 60px;
+                float: left;
+            margin-top: -20px;
+        display: block;}
+        aside{
+            font-size: 60px;
+            margin-top: 70px;
+        }
+        .dropbtn{
+            width: 100%;
+            float: left;
+            display: block;
+        margin: 90px;
+    }}
+        
+
+        
+ .downnav{
+            width: 100%;
+            height: 46px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgb(6, 136, 59);
+            font-size: 30px;
+            position: fixed;
+                }
+
+
+ .downnav a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: outfit;
+                    padding: 20px;
+                    transition: 0.5s;}
+                    
+                    .downnav a:hover {
+                        color: rgb(1, 123, 46);
+                      }
+                      
+                      .downnav a.active {
+                        color: rgb(0, 0, 0);
+                        size: 30px;
+                      }
+                      .downnav a.active:hover {
+                        color: rgb(1, 123, 46);
+                        size: 30px;
+                      }
+                    
+                      .top1  {
+                        display: none;
+                    }       
+                    
+                    
+                    @media screen and (max-width: 885px){
+                        .downnav {
+                             font-size:90%;
+                             height: 20px;}}
+                     
+                             @media screen and (max-width: 570px){
+                                 .downnav a {display: none;}
+                                 .downnav  {
+                                     width: 100%;
+                                     height: 80px;}
+                                      .downnav a.top1{
+                                         width: 100%;
+                                         font-size: 60px;
+                                     float: left;
+                                 margin-top: -20px;
+                             display: block;}}
+                     
+                      
+
+
+
+
+
+
+  /* Кнопка выпадающего списка */
+.dropbtn {
+   
+    color: rgb(0, 0, 0);
+    background-color: #ff000000;
+    padding: 16px;
+    font-size: 80px;
+    border: none;
+    cursor: pointer;
+  }
+   
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ffffff00;
+  }
+
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    bottom: 174px;
+    right: 180px;
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+    
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    font-family: outfit;
+    top: 180px;
+    left: 140px;
+    display: none;
+    position: absolute;
+    background-color:rgb(6, 136, 59);
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content a {
+    
+   color: black;
+    padding: 1px 300px 15px 40px;
+    text-decoration: none;
+    display: block;
+    padding-bottom:last-child 100px;
+  }
+
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #dddddd00}
+  
+  
+  
+  /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+  .show {display:block;}
+  
+ 
+  
+
+
+
+    
+    
+
+
+
+        
+               
